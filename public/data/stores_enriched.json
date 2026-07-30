@@ -1,0 +1,1152 @@
+[
+ {
+  "slug": "skyscanner-sg",
+  "name": "Skyscanner",
+  "url": "https://www.shopback.sg/skyscanner-sg",
+  "rate_kind": "pct",
+  "rate_value": 4.2,
+  "rate_up_to": true,
+  "rate_display": "Up to 4.2% cashback",
+  "fine_print": "Note: Purchases must be made on Skyscanner website. Purchases on Skyscanner app is not eligible for Cashback."
+ },
+ {
+  "slug": "expedia",
+  "name": "Expedia",
+  "url": "https://www.shopback.sg/expedia",
+  "rate_kind": "pct",
+  "rate_value": 11.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 11% cashback",
+  "fine_print": "If you use any Promo, coupon or discount code, your whole order will not be eligible for Cashback."
+ },
+ {
+  "slug": "trip-com-promo-code",
+  "name": "Trip.com",
+  "url": "https://www.shopback.sg/trip-com-promo-code",
+  "rate_kind": "pct",
+  "rate_value": 6.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 6% cashback",
+  "fine_print": "Note: For the Pay at Hotel option with an initial deposit, cashback is be initially calculated based on the deposit amount. The final sale amount and cashback will be adjusted upon cashback confirmation."
+ },
+ {
+  "slug": "traveloka",
+  "name": "Traveloka",
+  "url": "https://www.shopback.sg/traveloka",
+  "rate_kind": "pct",
+  "rate_value": 12.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 12% cashback",
+  "fine_print": "Note: Only purchases made with SGD currency are eligible for Cashback."
+ },
+ {
+  "slug": "kiwicom",
+  "name": "Kiwicom",
+  "url": "https://www.shopback.sg/kiwicom",
+  "rate_kind": "pct",
+  "rate_value": 1.2,
+  "rate_up_to": false,
+  "rate_display": "1.2% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "airpaz",
+  "name": "Airpaz",
+  "url": "https://www.shopback.sg/airpaz",
+  "rate_kind": "pct",
+  "rate_value": 1.0,
+  "rate_up_to": false,
+  "rate_display": "1% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "omio-sg",
+  "name": "Omio",
+  "url": "https://www.shopback.sg/omio-sg",
+  "rate_kind": "pct",
+  "rate_value": 4.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 4% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "alternative-airlines",
+  "name": "Alternative Airlines",
+  "url": "https://www.shopback.sg/alternative-airlines",
+  "rate_kind": "dollar",
+  "rate_value": 12.0,
+  "rate_up_to": false,
+  "rate_display": "S$12 cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "agoda",
+  "name": "Agoda",
+  "url": "https://www.shopback.sg/agoda",
+  "rate_kind": "pct",
+  "rate_value": 4.5,
+  "rate_up_to": true,
+  "rate_display": "Up to 4.5% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "booking-com",
+  "name": "Booking.com",
+  "url": "https://www.shopback.sg/booking-com",
+  "rate_kind": "pct",
+  "rate_value": 5.5,
+  "rate_up_to": true,
+  "rate_display": "Up to 5.5% cashback",
+  "fine_print": "Fees, taxes and any part of your order paid using Voucher, Promo, coupon or discount codes won’t earn Cashback."
+ },
+ {
+  "slug": "hotels-com",
+  "name": "Hotels.com",
+  "url": "https://www.shopback.sg/hotels-com",
+  "rate_kind": "pct",
+  "rate_value": 3.5,
+  "rate_up_to": false,
+  "rate_display": "3.5% cashback",
+  "fine_print": "Note: Purchases must be made on Hotels.com Singapore website. Purchases on Hotels.com app is not eligible for Cashback."
+ },
+ {
+  "slug": "rakuten-travel",
+  "name": "Rakuten Travel",
+  "url": "https://www.shopback.sg/rakuten-travel",
+  "rate_kind": "pct",
+  "rate_value": 9.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 9% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "ihg",
+  "name": "IHG Hotels & Resorts",
+  "url": "https://www.shopback.sg/ihg",
+  "rate_kind": "pct",
+  "rate_value": 1.5,
+  "rate_up_to": false,
+  "rate_display": "1.5% cashback",
+  "fine_print": "Note: Cashback is only available for eligible IHG Hotels & Resorts room rates (any costs incurred outside of room for example dinner, parking or room service are non-commissionable)"
+ },
+ {
+  "slug": "accor-hotels",
+  "name": "Accor Live Limitless",
+  "url": "https://www.shopback.sg/accor-hotels",
+  "rate_kind": "pct",
+  "rate_value": 3.0,
+  "rate_up_to": false,
+  "rate_display": "3% cashback",
+  "fine_print": "Note: Cashback will initially be tracked as $0 and uplifted to actual cashback after completion of stay."
+ },
+ {
+  "slug": "millenniumhotelsandresorts",
+  "name": "Millenniumhotelsandresorts",
+  "url": "https://www.shopback.sg/millenniumhotelsandresorts",
+  "rate_kind": "pct",
+  "rate_value": 1.5,
+  "rate_up_to": false,
+  "rate_display": "1.5% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "klik-hotel",
+  "name": "Klik Hotel",
+  "url": "https://www.shopback.sg/klik-hotel",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": "[Online Cashback](https://www.shopback.sg/online-cashback-how-it-works)"
+ },
+ {
+  "slug": "hostelworld",
+  "name": "Hostelworld",
+  "url": "https://www.shopback.sg/hostelworld",
+  "rate_kind": "pct",
+  "rate_value": 2.0,
+  "rate_up_to": false,
+  "rate_display": "2% cashback",
+  "fine_print": "Note: Purchases must be made on Hostelworld website. Purchases on Hostelworld app are not eligible for Cashback."
+ },
+ {
+  "slug": "luxury-escapes",
+  "name": "Luxury Escapes",
+  "url": "https://www.shopback.sg/luxury-escapes",
+  "rate_kind": "pct",
+  "rate_value": 3.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 3% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "klook-promo-code",
+  "name": "Klook SG",
+  "url": "https://www.shopback.sg/klook-promo-code",
+  "rate_kind": "pct",
+  "rate_value": 25.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 25% cashback",
+  "fine_print": "Note: Bookings with any promo, coupon or discount code, your whole order will not be eligible for Cashback. Please check that no promo code is automatically applied at checkout."
+ },
+ {
+  "slug": "kkday",
+  "name": "KKday",
+  "url": "https://www.shopback.sg/kkday",
+  "rate_kind": "pct",
+  "rate_value": 3.5,
+  "rate_up_to": true,
+  "rate_display": "Up to 3.5% cashback",
+  "fine_print": "If you use any Promo, coupon or discount code, your whole order will not be eligible for Cashback."
+ },
+ {
+  "slug": "pelago",
+  "name": "Pelago by Singapore Airlines",
+  "url": "https://www.shopback.sg/pelago",
+  "rate_kind": "pct",
+  "rate_value": 7.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 7% cashback",
+  "fine_print": null
+ },
+ {
+  "slug": "viator",
+  "name": "Viator",
+  "url": "https://www.shopback.sg/viator",
+  "rate_kind": "pct",
+  "rate_value": 5.0,
+  "rate_up_to": false,
+  "rate_display": "5% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "tiqets",
+  "name": "Tiqets",
+  "url": "https://www.shopback.sg/tiqets",
+  "rate_kind": "pct",
+  "rate_value": 2.5,
+  "rate_up_to": false,
+  "rate_display": "2.5% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "headout",
+  "name": "Headout",
+  "url": "https://www.shopback.sg/headout",
+  "rate_kind": "pct",
+  "rate_value": 4.0,
+  "rate_up_to": false,
+  "rate_display": "4% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "gocity",
+  "name": "Gocity",
+  "url": "https://www.shopback.sg/gocity",
+  "rate_kind": "pct",
+  "rate_value": 3.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 3% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "byfood-sg",
+  "name": "Byfood",
+  "url": "https://www.shopback.sg/byfood-sg",
+  "rate_kind": "pct",
+  "rate_value": 3.5,
+  "rate_up_to": false,
+  "rate_display": "3.5% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "tripadvisor-sg",
+  "name": "Tripadvisor",
+  "url": "https://www.shopback.sg/tripadvisor-sg",
+  "rate_kind": "pct",
+  "rate_value": 7.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 7% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "msig-travel-insurance",
+  "name": "Msig Travel Insurance",
+  "url": "https://www.shopback.sg/msig-travel-insurance",
+  "rate_kind": "dollar",
+  "rate_value": 15.0,
+  "rate_up_to": true,
+  "rate_display": "Up to S$15 cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "directasia",
+  "name": "Directasia",
+  "url": "https://www.shopback.sg/directasia",
+  "rate_kind": "dollar",
+  "rate_value": 90.0,
+  "rate_up_to": true,
+  "rate_display": "Up to S$90 cashback",
+  "fine_print": "Insurance renewals are not eligible for cashback"
+ },
+ {
+  "slug": "fwd-insurance-promo-code",
+  "name": "Fwd Insurance",
+  "url": "https://www.shopback.sg/fwd-insurance-promo-code",
+  "rate_kind": "dollar",
+  "rate_value": 35.0,
+  "rate_up_to": true,
+  "rate_display": "Up to S$35 cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "starr-insurance",
+  "name": "Starr Insurance",
+  "url": "https://www.shopback.sg/starr-insurance",
+  "rate_kind": "dollar",
+  "rate_value": 7.5,
+  "rate_up_to": false,
+  "rate_display": "S$7.5 cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "income-insurance",
+  "name": "Income Insurance",
+  "url": "https://www.shopback.sg/income-insurance",
+  "rate_kind": "dollar",
+  "rate_value": 35.0,
+  "rate_up_to": true,
+  "rate_display": "Up to S$35 cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "etiqa",
+  "name": "Etiqa",
+  "url": "https://www.shopback.sg/etiqa",
+  "rate_kind": "dollar",
+  "rate_value": 64.5,
+  "rate_up_to": true,
+  "rate_display": "Up to S$64.5 cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "allianz",
+  "name": "Allianz",
+  "url": "https://www.shopback.sg/allianz",
+  "rate_kind": "dollar",
+  "rate_value": 52.0,
+  "rate_up_to": true,
+  "rate_display": "Up to S$52 cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "airalo",
+  "name": "Airalo",
+  "url": "https://www.shopback.sg/airalo",
+  "rate_kind": "pct",
+  "rate_value": 13.0,
+  "rate_up_to": false,
+  "rate_display": "13% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "nomad-esim-sg",
+  "name": "Nomad Esim",
+  "url": "https://www.shopback.sg/nomad-esim-sg",
+  "rate_kind": "pct",
+  "rate_value": 12.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 12% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "saily-esim-sg",
+  "name": "Saily Esim",
+  "url": "https://www.shopback.sg/saily-esim-sg",
+  "rate_kind": "pct",
+  "rate_value": 20.0,
+  "rate_up_to": false,
+  "rate_display": "20% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "gigsky-sg",
+  "name": "Gigsky",
+  "url": "https://www.shopback.sg/gigsky-sg",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": "[Online Cashback](https://www.shopback.sg/online-cashback-how-it-works)"
+ },
+ {
+  "slug": "sakura-mobile",
+  "name": "Sakura Mobile",
+  "url": "https://www.shopback.sg/sakura-mobile",
+  "rate_kind": "pct",
+  "rate_value": 9.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 9% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "4sesim",
+  "name": "4Sesim",
+  "url": "https://www.shopback.sg/4sesim",
+  "rate_kind": "pct",
+  "rate_value": 12.0,
+  "rate_up_to": false,
+  "rate_display": "12% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "etravelsim-sg",
+  "name": "Etravelsim",
+  "url": "https://www.shopback.sg/etravelsim-sg",
+  "rate_kind": "pct",
+  "rate_value": 10.0,
+  "rate_up_to": false,
+  "rate_display": "10% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "gohub",
+  "name": "Gohub",
+  "url": "https://www.shopback.sg/gohub",
+  "rate_kind": "pct",
+  "rate_value": 20.0,
+  "rate_up_to": false,
+  "rate_display": "20% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "hsbc-travelone",
+  "name": "Hsbc Travelone",
+  "url": "https://www.shopback.sg/hsbc-travelone",
+  "rate_kind": "dollar",
+  "rate_value": 10.0,
+  "rate_up_to": false,
+  "rate_display": "S$10 cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "standard-chartered-smart-cc",
+  "name": "Standard Chartered Smart Cc",
+  "url": "https://www.shopback.sg/standard-chartered-smart-cc",
+  "rate_kind": "dollar",
+  "rate_value": 12.0,
+  "rate_up_to": false,
+  "rate_display": "S$12 cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "citibankcard",
+  "name": "Citibankcard",
+  "url": "https://www.shopback.sg/citibankcard",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": "[Online Cashback](https://www.shopback.sg/online-cashback-how-it-works)"
+ },
+ {
+  "slug": "samsonite",
+  "name": "Samsonite",
+  "url": "https://www.shopback.sg/samsonite",
+  "rate_kind": "pct",
+  "rate_value": 2.5,
+  "rate_up_to": false,
+  "rate_display": "2.5% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "timbuk2",
+  "name": "Timbuk2",
+  "url": "https://www.shopback.sg/timbuk2",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": "[Online Cashback](https://www.shopback.sg/online-cashback-how-it-works)"
+ },
+ {
+  "slug": "the-planet-traveller",
+  "name": "The Planet Traveller",
+  "url": "https://www.shopback.sg/the-planet-traveller",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": "[Online Cashback](https://www.shopback.sg/online-cashback-how-it-works)"
+ },
+ {
+  "slug": "the-travel-store",
+  "name": "The Travel Store",
+  "url": "https://www.shopback.sg/the-travel-store",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": "[Online Cashback](https://www.shopback.sg/online-cashback-how-it-works)"
+ },
+ {
+  "slug": "durasafe",
+  "name": "Durasafe",
+  "url": "https://www.shopback.sg/durasafe",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": "[Online Cashback](https://www.shopback.sg/online-cashback-how-it-works)"
+ },
+ {
+  "slug": "ishopchangi-sg",
+  "name": "Ishopchangi",
+  "url": "https://www.shopback.sg/ishopchangi-sg",
+  "rate_kind": "pct",
+  "rate_value": 2.5,
+  "rate_up_to": true,
+  "rate_display": "Up to 2.5% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "discovercars-sg",
+  "name": "Discovercars",
+  "url": "https://www.shopback.sg/discovercars-sg",
+  "rate_kind": "pct",
+  "rate_value": 3.0,
+  "rate_up_to": false,
+  "rate_display": "3% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "auto-europe",
+  "name": "Auto Europe",
+  "url": "https://www.shopback.sg/auto-europe",
+  "rate_kind": "pct",
+  "rate_value": 3.5,
+  "rate_up_to": true,
+  "rate_display": "Up to 3.5% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "stressfreecarrental-sg",
+  "name": "Stressfreecarrental",
+  "url": "https://www.shopback.sg/stressfreecarrental-sg",
+  "rate_kind": "pct",
+  "rate_value": 30.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 30% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "hipvan",
+  "name": "Hipvan",
+  "url": "https://www.shopback.sg/hipvan",
+  "rate_kind": "pct",
+  "rate_value": 3.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 3% cashback",
+  "fine_print": "Note: Purchases must be made on HipVan website. Purchases on HipVan app are not eligible for Cashback."
+ },
+ {
+  "slug": "megafurniture",
+  "name": "Megafurniture",
+  "url": "https://www.shopback.sg/megafurniture",
+  "rate_kind": "pct",
+  "rate_value": 4.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 4% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "fortytwo",
+  "name": "Fortytwo",
+  "url": "https://www.shopback.sg/fortytwo",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "grain",
+  "name": "Grain",
+  "url": "https://www.shopback.sg/grain",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "picket-and-rail",
+  "name": "Picket And Rail",
+  "url": "https://www.shopback.sg/picket-and-rail",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "loft-home-furniture",
+  "name": "Loft Home Furniture",
+  "url": "https://www.shopback.sg/loft-home-furniture",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "choice-furniture-online",
+  "name": "Choice Furniture Online",
+  "url": "https://www.shopback.sg/choice-furniture-online",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "weavve-home",
+  "name": "Weavve Home",
+  "url": "https://www.shopback.sg/weavve-home",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "yu-home",
+  "name": "Yu Home",
+  "url": "https://www.shopback.sg/yu-home",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "homes-to-life",
+  "name": "Homes To Life",
+  "url": "https://www.shopback.sg/homes-to-life",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "furniture-mart",
+  "name": "Furniture Mart",
+  "url": "https://www.shopback.sg/furniture-mart",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "sofaandbed",
+  "name": "Sofaandbed",
+  "url": "https://www.shopback.sg/sofaandbed",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "arena-living",
+  "name": "Arena Living",
+  "url": "https://www.shopback.sg/arena-living",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "origin-mattress",
+  "name": "Origin Mattress",
+  "url": "https://www.shopback.sg/origin-mattress",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "sonno",
+  "name": "Sonno",
+  "url": "https://www.shopback.sg/sonno",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "somnuz",
+  "name": "Somnuz",
+  "url": "https://www.shopback.sg/somnuz",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "king-koil",
+  "name": "King Koil",
+  "url": "https://www.shopback.sg/king-koil",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "simmons",
+  "name": "Simmons",
+  "url": "https://www.shopback.sg/simmons",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "heveya",
+  "name": "Heveya",
+  "url": "https://www.shopback.sg/heveya",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "dunlopillo",
+  "name": "Dunlopillo",
+  "url": "https://www.shopback.sg/dunlopillo",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "ozzy-mattress",
+  "name": "Ozzy Mattress",
+  "url": "https://www.shopback.sg/ozzy-mattress",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "lana-sleep",
+  "name": "Lana Sleep",
+  "url": "https://www.shopback.sg/lana-sleep",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "snow-slumber",
+  "name": "Snow Slumber",
+  "url": "https://www.shopback.sg/snow-slumber",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": "[Online Cashback](https://www.shopback.sg/online-cashback-how-it-works)"
+ },
+ {
+  "slug": "sunday-bedding",
+  "name": "Sunday Bedding",
+  "url": "https://www.shopback.sg/sunday-bedding",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "heavenluxe",
+  "name": "Heavenluxe",
+  "url": "https://www.shopback.sg/heavenluxe",
+  "rate_kind": "pct",
+  "rate_value": 7.0,
+  "rate_up_to": false,
+  "rate_display": "7% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "dyson",
+  "name": "Dyson",
+  "url": "https://www.shopback.sg/dyson",
+  "rate_kind": "pct",
+  "rate_value": 1.0,
+  "rate_up_to": false,
+  "rate_display": "1% cashback",
+  "fine_print": "Note: All bundle deals/PWP purchases, non-full priced items, and discounted items from Dyson will only be eligible for 1% Cashback."
+ },
+ {
+  "slug": "samsung-sg",
+  "name": "Samsung",
+  "url": "https://www.shopback.sg/samsung-sg",
+  "rate_kind": "pct",
+  "rate_value": 1.5,
+  "rate_up_to": false,
+  "rate_display": "1.5% cashback",
+  "fine_print": "Note: For preorders, upsized cashback is limited and cashback rates may change at any time without prior notice."
+ },
+ {
+  "slug": "lg-sg",
+  "name": "LG",
+  "url": "https://www.shopback.sg/lg-sg",
+  "rate_kind": "pct",
+  "rate_value": 6.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 6% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "xiaomi-sg",
+  "name": "Xiaomi",
+  "url": "https://www.shopback.sg/xiaomi-sg",
+  "rate_kind": "pct",
+  "rate_value": 2.5,
+  "rate_up_to": false,
+  "rate_display": "2.5% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "mi",
+  "name": "Mi",
+  "url": "https://www.shopback.sg/mi",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": "[Online Cashback](https://www.shopback.sg/online-cashback-how-it-works)"
+ },
+ {
+  "slug": "tcl-sg",
+  "name": "Tcl",
+  "url": "https://www.shopback.sg/tcl-sg",
+  "rate_kind": "pct",
+  "rate_value": 3.0,
+  "rate_up_to": true,
+  "rate_display": "Up to 3% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "delonghi",
+  "name": "Delonghi",
+  "url": "https://www.shopback.sg/delonghi",
+  "rate_kind": "pct",
+  "rate_value": 3.0,
+  "rate_up_to": false,
+  "rate_display": "3% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "kenwood",
+  "name": "Kenwood",
+  "url": "https://www.shopback.sg/kenwood",
+  "rate_kind": "pct",
+  "rate_value": 3.0,
+  "rate_up_to": false,
+  "rate_display": "3% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "braunhousehold",
+  "name": "Braunhousehold",
+  "url": "https://www.shopback.sg/braunhousehold",
+  "rate_kind": "pct",
+  "rate_value": 3.0,
+  "rate_up_to": false,
+  "rate_display": "3% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "dreame",
+  "name": "Dreame",
+  "url": "https://www.shopback.sg/dreame",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": "[Online Cashback](https://www.shopback.sg/online-cashback-how-it-works)"
+ },
+ {
+  "slug": "roborock-singapore",
+  "name": "Roborock",
+  "url": "https://www.shopback.sg/roborock-singapore",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": "[Online Cashback](https://www.shopback.sg/online-cashback-how-it-works)"
+ },
+ {
+  "slug": "instantpot",
+  "name": "Instantpot",
+  "url": "https://www.shopback.sg/instantpot",
+  "rate_kind": "pct",
+  "rate_value": 4.0,
+  "rate_up_to": false,
+  "rate_display": "4% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "ninja-kitchen",
+  "name": "Ninja Kitchen",
+  "url": "https://www.shopback.sg/ninja-kitchen",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": "[Online Cashback](https://www.shopback.sg/online-cashback-how-it-works)"
+ },
+ {
+  "slug": "hurom",
+  "name": "Hurom",
+  "url": "https://www.shopback.sg/hurom",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": "[Online Cashback](https://www.shopback.sg/online-cashback-how-it-works)"
+ },
+ {
+  "slug": "simple-human",
+  "name": "Simple Human",
+  "url": "https://www.shopback.sg/simple-human",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": "[Online Cashback](https://www.shopback.sg/online-cashback-how-it-works)"
+ },
+ {
+  "slug": "leifheit",
+  "name": "Leifheit",
+  "url": "https://www.shopback.sg/leifheit",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": "[Online Cashback](https://www.shopback.sg/online-cashback-how-it-works)"
+ },
+ {
+  "slug": "buydeem",
+  "name": "Buydeem",
+  "url": "https://www.shopback.sg/buydeem",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "kitchenary",
+  "name": "Kitchenary",
+  "url": "https://www.shopback.sg/kitchenary",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "luzerne",
+  "name": "Luzerne",
+  "url": "https://www.shopback.sg/luzerne",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "wine-and-kitchen",
+  "name": "Wine And Kitchen",
+  "url": "https://www.shopback.sg/wine-and-kitchen",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "igloohome-singapore",
+  "name": "Igloohome",
+  "url": "https://www.shopback.sg/igloohome-singapore",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "kaadas",
+  "name": "Kaadas",
+  "url": "https://www.shopback.sg/kaadas",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "go-digital-lock",
+  "name": "Go Digital Lock",
+  "url": "https://www.shopback.sg/go-digital-lock",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "hddoor",
+  "name": "Hddoor",
+  "url": "https://www.shopback.sg/hddoor",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "myrepublic-sg",
+  "name": "Myrepublic",
+  "url": "https://www.shopback.sg/myrepublic-sg",
+  "rate_kind": "dollar",
+  "rate_value": 20.0,
+  "rate_up_to": false,
+  "rate_display": "S$20 cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "viewqwest",
+  "name": "Viewqwest",
+  "url": "https://www.shopback.sg/viewqwest",
+  "rate_kind": "pct",
+  "rate_value": 85.0,
+  "rate_up_to": false,
+  "rate_display": "85% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "circles-life",
+  "name": "Circles Life",
+  "url": "https://www.shopback.sg/circles-life",
+  "rate_kind": "dollar",
+  "rate_value": 5.0,
+  "rate_up_to": false,
+  "rate_display": "S$5 cashback",
+  "fine_print": "Note: Purchases must be made on Circles.Life website. Purchases on Circles.Life app are not eligible for Cashback."
+ },
+ {
+  "slug": "gomo",
+  "name": "Gomo",
+  "url": "https://www.shopback.sg/gomo",
+  "rate_kind": "pct",
+  "rate_value": 7.0,
+  "rate_up_to": false,
+  "rate_display": "7% cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "flow-sg",
+  "name": "Flow",
+  "url": "https://www.shopback.sg/flow-sg",
+  "rate_kind": "pct",
+  "rate_value": 3.0,
+  "rate_up_to": false,
+  "rate_display": "3% cashback",
+  "fine_print": "No-shows and any booking changes that lead to a change in the booking ID will not be eligible for Cashback."
+ },
+ {
+  "slug": "singlife",
+  "name": "Singlife",
+  "url": "https://www.shopback.sg/singlife",
+  "rate_kind": "dollar",
+  "rate_value": 50.0,
+  "rate_up_to": true,
+  "rate_display": "Up to S$50 cashback",
+  "fine_print": "Only the insurance policies listed with its respective cashback rate are eligible for Cashback"
+ },
+ {
+  "slug": "hsbc-revolution",
+  "name": "Hsbc Revolution",
+  "url": "https://www.shopback.sg/hsbc-revolution",
+  "rate_kind": "dollar",
+  "rate_value": 10.0,
+  "rate_up_to": false,
+  "rate_display": "S$10 cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "hsbc-live",
+  "name": "Hsbc Live",
+  "url": "https://www.shopback.sg/hsbc-live",
+  "rate_kind": "dollar",
+  "rate_value": 10.0,
+  "rate_up_to": false,
+  "rate_display": "S$10 cashback",
+  "fine_print": "Your Cashback may be tracked at a different rate initially and adjusted to the correct rate when we confirm the transaction details."
+ },
+ {
+  "slug": "masons-home-decor",
+  "name": "Masons Home Decor",
+  "url": "https://www.shopback.sg/masons-home-decor",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "decor-fan-sea",
+  "name": "Decor Fan Sea",
+  "url": "https://www.shopback.sg/decor-fan-sea",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "lux-lumens",
+  "name": "Lux Lumens",
+  "url": "https://www.shopback.sg/lux-lumens",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ },
+ {
+  "slug": "prime-decor-furnishing",
+  "name": "Prime Decor Furnishing",
+  "url": "https://www.shopback.sg/prime-decor-furnishing",
+  "rate_kind": null,
+  "rate_value": null,
+  "rate_up_to": false,
+  "rate_display": null,
+  "fine_print": null
+ }
+]
