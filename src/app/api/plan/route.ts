@@ -1,6 +1,6 @@
 import { loadCatalogue, loadRatedStores, loadVectorIndex } from "@/lib/data";
 import { streamDecompose } from "@/lib/llm";
-import { embedQueries, mergeStores } from "@/lib/retrieval";
+import { embedQueries, mergeStores, selectHits } from "@/lib/retrieval";
 import { topK } from "@/lib/vectors";
 
 export const runtime = "nodejs";
@@ -33,7 +33,8 @@ export async function POST(req: Request) {
             (async () => {
               try {
                 const [qv] = await embedQueries([sn.query]);
-                const stores = mergeStores(topK(qv, index, 6), catalogue, rated);
+                const hits = selectHits(topK(qv, index, 10));
+                const stores = mergeStores(hits, catalogue, rated);
                 if (stores.length) write({ name: sn.name, stores });
               } catch (e) {
                 console.error("sub-need retrieval failed:", e);

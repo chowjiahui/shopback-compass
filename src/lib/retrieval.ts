@@ -29,6 +29,19 @@ export function mergeStores(
   return out;
 }
 
+/** Relevance gate for a sub-need's ranked hits. Thresholds calibrated on real
+ * text-embedding-3-small scores: well-covered sub-needs top out ≥0.55, ones the
+ * catalogue can't serve top out ~0.49 — so a section whose BEST match is below
+ * `sectionMinTop` is dropped entirely (no filler cards), and within a kept
+ * section tail matches below `cardMin` are trimmed, capped at `maxK`. */
+export function selectHits(
+  hits: { slug: string; score: number }[],
+  { sectionMinTop = 0.5, cardMin = 0.42, maxK = 6 } = {}
+): { slug: string; score: number }[] {
+  if (!hits.length || hits[0].score < sectionMinTop) return [];
+  return hits.filter((h) => h.score >= cardMin).slice(0, maxK);
+}
+
 /** Embed free-text queries via the configured OpenAI-compatible endpoint. */
 export async function embedQueries(texts: string[]): Promise<number[][]> {
   const key = process.env.EMBEDDING_API_KEY;

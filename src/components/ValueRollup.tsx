@@ -25,7 +25,7 @@ export function ValueRollup({ data }: { data: Rollup }) {
   const hours = useCountUp(data.hoursSaved);
   const stores = useCountUp(data.storeCount);
   return (
-    <div className="rollup" style={{ marginTop: 30 }}>
+    <div className="rollup">
       <div>
         <div className="n acc">S${Math.round(cash)}</div>
         <div className="l">in flat cashback bounties across your plan</div>

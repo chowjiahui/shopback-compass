@@ -15,6 +15,12 @@ export function PlanBoard({ plan, streaming }: { plan: PlanData; streaming?: boo
         Assembled from ShopBack&apos;s real store catalogue, ranked by cashback — including the parts most people forget.
       </p>
 
+      {!streaming && plan.sub_needs.length > 0 && (
+        <div style={{ margin: "18px 0 30px" }}>
+          <ValueRollup data={rollup} />
+        </div>
+      )}
+
       {plan.sub_needs.map((sn) => (
         <SubNeedRow key={sn.name} name={sn.name} stores={sn.stores} />
       ))}
@@ -27,8 +33,6 @@ export function PlanBoard({ plan, streaming }: { plan: PlanData; streaming?: boo
           </h3>
         </div>
       )}
-
-      {!streaming && plan.sub_needs.length > 0 && <ValueRollup data={rollup} />}
     </div>
   );
 }

@@ -3,13 +3,20 @@ export interface DecomposedSubNeed {
   query: string;
 }
 
-const SYSTEM = `You are a shopping-plan assistant for ShopBack Singapore.
-Decompose the user's goal into 4-8 sub-needs a shopper must cover. ALWAYS include
-the easily-forgotten ones where relevant: travel/home insurance, connectivity
-(eSIM/broadband), and a funding credit card.
+const SYSTEM = `You are a shopping-plan assistant for ShopBack Singapore, a CASHBACK
+platform whose merchants are ONLINE RETAILERS and product brands (not local
+service providers like photographers or venues).
+Decompose the user's goal into 4-8 sub-needs that map to things you actually BUY
+from online stores. Skip purely local-service needs. ALWAYS include the
+easily-forgotten buyable ones where relevant: travel/home insurance,
+connectivity (eSIM/broadband), and a funding credit card.
+The "query" must be a SPECIFIC retailer-type noun phrase used for a similarity
+search over store names — name the kind of shop/brand, e.g. "robot vacuum and
+home appliance stores", "bridal gown and formalwear retailers", "travel
+insurance providers", "pet food and supplies shops". Avoid vague labels.
 Output STRICT JSONL — one JSON object per line, no surrounding array, no code
 fences, no prose. Each line:
-{"name":"<short label>","query":"<concise phrase describing the kind of stores/brands to find>"}`;
+{"name":"<short label>","query":"<specific retailer-type phrase>"}`;
 
 function tryParseSubNeed(raw: string): DecomposedSubNeed | null {
   let s = raw.replace(/^```(json)?/i, "").replace(/```$/, "").trim().replace(/,\s*$/, "");
