@@ -1,79 +1,83 @@
-import type { CatalogueEntry, SubNeed } from "./types";
-
-export interface LlmSubNeed {
+export interface DecomposedSubNeed {
   name: string;
-  slugs: string[];
-}
-
-/** Keep only slugs that really exist in the catalogue; drop empty sub-needs.
- * Free-text stores carry null rates (UI shows "Cashback available"); this is
- * the guardrail that stops the model inventing stores, rates, or fine print. */
-export function groundToCatalogue(
-  llmSubNeeds: LlmSubNeed[],
-  catalogue: CatalogueEntry[]
-): SubNeed[] {
-  const byslug = new Map(catalogue.map((c) => [c.slug, c]));
-  const out: SubNeed[] = [];
-  for (const sn of llmSubNeeds) {
-    const seen = new Set<string>();
-    const stores = [];
-    for (const slug of sn.slugs) {
-      const c = byslug.get(slug);
-      if (!c || seen.has(slug)) continue;
-      seen.add(slug);
-      stores.push({
-        slug: c.slug,
-        name: c.name,
-        url: c.url,
-        rate_kind: null,
-        rate_value: null,
-        rate_up_to: false,
-        rate_display: null,
-        fine_print: null,
-      });
-    }
-    if (stores.length) out.push({ name: sn.name, stores });
-  }
-  return out;
+  query: string;
 }
 
 const SYSTEM = `You are a shopping-plan assistant for ShopBack Singapore.
-Given a user's goal, decompose it into 4-8 clearly-labelled sub-needs. ALWAYS
-include the easily-forgotten ones where relevant (insurance, connectivity/eSIM,
-a funding card). For each sub-need, choose up to 6 relevant stores by their slug
-FROM THE PROVIDED CATALOGUE ONLY. Never invent a slug. Return strict JSON:
-{"sub_needs":[{"name":"...","slugs":["slug1","slug2"]}]}`;
+Decompose the user's goal into 4-8 sub-needs a shopper must cover. ALWAYS include
+the easily-forgotten ones where relevant: travel/home insurance, connectivity
+(eSIM/broadband), and a funding credit card.
+Output STRICT JSONL — one JSON object per line, no surrounding array, no code
+fences, no prose. Each line:
+{"name":"<short label>","query":"<concise phrase describing the kind of stores/brands to find>"}`;
 
-/** Call the configured OpenAI-compatible LLM to decompose a free-text intent.
- * Env: LLM_BASE_URL, LLM_API_KEY, LLM_MODEL (defaults suit DeepSeek). */
-export async function callLLM(
-  intent: string,
-  catalogue: CatalogueEntry[]
-): Promise<{ sub_needs: LlmSubNeed[] }> {
+function tryParseSubNeed(raw: string): DecomposedSubNeed | null {
+  let s = raw.replace(/^```(json)?/i, "").replace(/```$/, "").trim().replace(/,\s*$/, "");
+  if (!s.startsWith("{")) return null;
+  try {
+    const o = JSON.parse(s);
+    if (o && typeof o.name === "string" && typeof o.query === "string") {
+      return { name: o.name, query: o.query };
+    }
+  } catch {
+    /* partial or non-JSON line — skip */
+  }
+  return null;
+}
+
+/** Stream the goal decomposition, yielding each sub-need as its JSONL line
+ * completes. No catalogue in the prompt — that keeps this call small and fast. */
+export async function* streamDecompose(intent: string): AsyncGenerator<DecomposedSubNeed> {
   const base = process.env.LLM_BASE_URL || "https://api.deepseek.com";
   const model = process.env.LLM_MODEL || "deepseek-chat";
   const key = process.env.LLM_API_KEY;
   if (!key) throw new Error("LLM_API_KEY not set");
-
-  // Compact catalogue for the prompt (slug + name keeps grounding cheap).
-  const list = catalogue.map((c) => `${c.slug} | ${c.name}`).join("\n");
 
   const res = await fetch(`${base}/chat/completions`, {
     method: "POST",
     headers: { "Content-Type": "application/json", Authorization: `Bearer ${key}` },
     body: JSON.stringify({
       model,
-      response_format: { type: "json_object" },
+      stream: true,
       temperature: 0.3,
       messages: [
         { role: "system", content: SYSTEM },
-        { role: "user", content: `GOAL: ${intent}\n\nCATALOGUE (slug | name):\n${list}` },
+        { role: "user", content: `GOAL: ${intent}` },
       ],
     }),
   });
-  if (!res.ok) throw new Error(`LLM ${res.status}`);
-  const json = await res.json();
-  const content = json.choices?.[0]?.message?.content ?? "{}";
-  const parsed = JSON.parse(content);
-  return { sub_needs: Array.isArray(parsed.sub_needs) ? parsed.sub_needs : [] };
+  if (!res.ok || !res.body) throw new Error(`LLM ${res.status}`);
+
+  const reader = res.body.getReader();
+  const decoder = new TextDecoder();
+  let sse = "";
+  let line = "";
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    sse += decoder.decode(value, { stream: true });
+    const events = sse.split("\n");
+    sse = events.pop() ?? "";
+    for (const ev of events) {
+      const t = ev.trim();
+      if (!t.startsWith("data:")) continue;
+      const payload = t.slice(5).trim();
+      if (payload === "[DONE]") continue;
+      let delta = "";
+      try {
+        delta = JSON.parse(payload).choices?.[0]?.delta?.content ?? "";
+      } catch {
+        continue;
+      }
+      line += delta;
+      let nl: number;
+      while ((nl = line.indexOf("\n")) >= 0) {
+        const parsed = tryParseSubNeed(line.slice(0, nl));
+        line = line.slice(nl + 1);
+        if (parsed) yield parsed;
+      }
+    }
+  }
+  const last = tryParseSubNeed(line);
+  if (last) yield last;
 }
