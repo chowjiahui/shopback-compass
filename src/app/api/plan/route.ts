@@ -5,6 +5,8 @@ import { topK } from "@/lib/vectors";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
+// Pin to Singapore — closest to the SG demo audience and to the Asia-based LLM.
+export const preferredRegion = "sin1";
 
 /** Two-stage streaming plan:
  *  Stage 1 (LLM) streams sub-needs; for each, Stage 2 embeds the query, does a
